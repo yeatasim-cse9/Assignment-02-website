@@ -1,0 +1,71 @@
+@media (max-width: 576px) {
+  .nav-bar {
+    display: none;
+  }
+  .banner,
+  .extra-mile {
+    flex-direction: column;
+    gap: 5rem;
+    align-items: center;
+  }
+
+  .info,
+  .Contact {
+    flex-direction: column;
+    align-items: center;
+    gap: 3rem;
+  }
+
+  .banner-text-container,
+  .extra-mile {
+    text-align: left;
+  }
+  .btn {
+    margin-bottom: 0.88rem;
+  }
+  #upper-btn {
+    margin-top: -35rem;
+    margin-right: 0rem;
+  }
+  #lower-btn {
+    margin-left: 0rem;
+  }
+  .habit-card-container,
+  .meet-card-container {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .bmi-calculator-container {
+    flex-direction: column;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 768px) {
+  .nav-bar {
+    flex-direction: column;
+    width: 100%;
+  }
+  .btn {
+    margin-inline: 0.88rem;
+  }
+  .banner,
+  .info {
+    flex-direction: column;
+    text-align: left;
+    align-items: center;
+    gap: 5rem;
+  }
+  .extra-mile {
+    gap: 5rem;
+  }
+  .habit-card-container,
+  .meet-card-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* @media (min-width: 768px) and (max-width: 1024px) {
+  .habit-card-container {
+    grid-template-columns: repeat(3, 1fr);
+  }
+} */
