@@ -1,7 +1,17 @@
 @media (max-width: 576px) {
+  .nav-hamburger-menu {
+    display: block;
+    color: white;
+  }
+
   .nav-bar {
+    flex-direction: row;
+  }
+
+  .nav-link {
     display: none;
   }
+
   .banner,
   .extra-mile {
     flex-direction: column;
@@ -80,8 +90,13 @@
   }
 }
 
-@media (min-width: 768px) and (max-width: 1024px) {
+@media (min-width: 768px) and (max-width: 993px) {
+  #upper-btn {
+    margin-top: -26rem;
+    margin-right: -2.5rem;
+  }
+
   .habit-card-container {
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
   }
 }

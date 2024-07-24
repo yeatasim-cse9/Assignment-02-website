@@ -98,6 +98,10 @@ header {
   font-weight: 400;
 }
 
+.nav-hamburger-menu {
+  display: none;
+}
+
 /* nav-bar-style-ends */
 
 /* banner-section-style-stars */
