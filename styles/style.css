@@ -398,6 +398,48 @@ td {
 
 /* meet-card-container-style-ends */
 
+/* accordion-start */
+
+.page-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 90%;
+  margin: 0 auto;
+  margin-bottom: 6.25rem;
+}
+
+.page-wrapper > h1 {
+  text-align: center;
+}
+
+.accordion {
+  margin-top: 3rem;
+  max-width: 500px;
+  width: calc(100% - 20px);
+}
+details {
+  background-color: #1e1e1e;
+  margin-bottom: 1rem;
+  box-shadow: 0 4px 10px rgba(255, 255, 255, 0.2);
+  border-radius: 0.5rem;
+  padding: 1rem;
+}
+
+details:hover {
+  box-shadow: 0 8px 20px rgba(255, 255, 255, 0.4);
+  transition: box-shadow 0.3s ease;
+}
+
+details > summary {
+  color: rgba(255, 255, 255, 0.5);
+  padding: 0.5rem 1rem;
+  font-size: 1.3em;
+  cursor: pointer;
+}
+/* accordion-ends */
+
 /* footer-section-style-start */
 footer {
   background: rgba(255, 255, 255, 0.1);
