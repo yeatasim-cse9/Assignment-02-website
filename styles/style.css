@@ -263,7 +263,6 @@ header {
 
 .mile-image-container {
   flex-basis: 50%;
-  max-width: 22.875rem;
 }
 
 .mile-image-container img {
@@ -349,6 +348,7 @@ td {
   width: 90%;
   margin: 0 auto;
   margin-bottom: 6.25rem;
+  margin-top: 6.25rem;
 }
 .meet-text-container {
   text-align: center;
